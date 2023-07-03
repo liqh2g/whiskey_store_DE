@@ -61,3 +61,7 @@ tzdata==2023.3
 urllib3==2.0.3
 wcwidth==0.2.6
 wsproto==1.2.0
+
+
+env1\bin\python -m pip freeze > requirements.txt
+env2\bin\python -m pip install -r requirements.txt
